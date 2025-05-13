@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kazi Fahim Rafi - CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-print-color-adjust: exact; /* Ensures background colors are printed */
+            print-color-adjust: exact;
+        }
+        /* Additional styles for printing if needed */
+        @media print {
+            body {
+                margin: 0;
+                padding: 0;
+                font-size: 10pt; /* Adjust font size for print */
+            }
+            .no-print {
+                display: none;
+            }
+            .page-break {
+                page-break-after: always;
+            }
+            /* Ensure two-column layout prints correctly */
+            .print-flex-container {
+                display: flex !important;
+                flex-direction: row !important;
+            }
+            .print-left-col {
+                width: 33.333333% !important; /* approx 1/3 */
+                padding-right: 1.5rem !important; /* Tailwind's pr-6 */
+            }
+            .print-right-col {
+                width: 66.666667% !important; /* approx 2/3 */
+                padding-left: 1.5rem !important; /* Tailwind's pl-6 */
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 अंतराळ-y-8 p-4 md:p-8 print:p-0">
+
+    <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden print:shadow-none print:rounded-none">
+        <header class="bg-slate-700 text-white p-6 md:p-8 print:bg-slate-700">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div>
+                    <h1 class="text-3xl md:text-4xl font-bold">KAZI FAHIM RAFI</h1>
+                    <h2 class="text-xl md:text-2xl text-slate-300">Full Stack Web Developer</h2>
+                </div>
+                <div class="mt-4 md:mt-0 text-sm text-right">
+                    <p>Nickname: Fahim</p>
+                </div>
+            </div>
+        </header>
+
+        <main class="p-6 md:p-8 print-flex-container">
+            <div class="w-full md:w-1/3 md:pr-8 print-left-col">
+                <section class="mb-6">
+                    <h3 class="text-xl font-semibold text-slate-700 border-b-2 border-slate-300 pb-2 mb-3">CONTACT</h3>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li><strong>Phone:</strong> +8801784918086</li>
+                        <li><strong>Email:</strong> fahim.rk2003@gmail.com</li>
+                        <li><strong>GitHub:</strong> <a href="https://github.com/Fahim-rafi24?tab=repositories" target="_blank" class="text-blue-600 hover:underline">github.com/Fahim-rafi24</a></li>
+                        <li><strong>Address:</strong> Vakutiya, Jessore, Khulna, Bangladesh</li>
+                    </ul>
+                </section>
+
+                <section class="mb-6">
+                    <h3 class="text-xl font-semibold text-slate-700 border-b-2 border-slate-300 pb-2 mb-3">EDUCATION</h3>
+                    <div class="text-sm text-gray-700">
+                        <p class="font-semibold">BSc Honors in Geography (1st Year)</p>
+                        <p class="italic">Currently Studying</p>
+                        <p class="mt-2 font-semibold">Higher Secondary Certificate (HSC)</p>
+                        <p class="italic">Completed</p>
+                    </div>
+                </section>
+
+                <section class="mb-6">
+                    <h3 class="text-xl font-semibold text-slate-700 border-b-2 border-slate-300 pb-2 mb-3">SKILLS</h3>
+                    <div class="text-sm text-gray-700 space-y-2">
+                        <p><strong>MERN Stack:</strong> HTML, CSS, JavaScript, React, Tailwind CSS, MongoDB, Node.js, Express.js</p>
+                        <p><strong>Version Control:</strong> Git, GitHub (Full Comfort)</p>
+                        <p><strong>Additional Tech:</strong> Mongoose, Next.js, MySQL</p>
+                        <p><strong>Programming Languages:</strong> JavaScript (Primary), Python (Secondary)</p>
+                        <p><strong>Animation:</strong> GSAP (Basic)</p>
+                        <p>Adept at using necessary third-party tools for projects.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h3 class="text-xl font-semibold text-slate-700 border-b-2 border-slate-300 pb-2 mb-3">LANGUAGES</h3>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                        <li>Bangla (Native)</li>
+                        <li>English (Fluent)</li>
+                        <li>Hindi (Conversational)</li>
+                        <li><strong>Programming:</strong> JavaScript, Python</li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="w-full md:w-2/3 md:pl-8 mt-8 md:mt-0 print-right-col">
+                <section class="mb-8">
+                    <h3 class="text-2xl font-semibold text-slate-800 border-b-2 border-slate-300 pb-2 mb-4">PROFILE SUMMARY</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        A highly motivated and skilled Full Stack Web Developer with a strong foundation in the MERN stack and a passion for building robust and efficient web applications. While comfortable with front-end development using React and Next.js, I excel in back-end API development, database management, and implementing complex server-side logic. Eager to contribute technical expertise to challenging projects and continuously learn new technologies. A fresher with hands-on project experience demonstrating practical application of skills.
+                    </p>
+                </section>
+
+                <section>
+                    <h3 class="text-2xl font-semibold text-slate-800 border-b-2 border-slate-300 pb-2 mb-4">PROJECTS</h3>
+                    <p class="text-sm text-gray-600 mb-4 italic">As a fresher, I have focused on building comprehensive projects to showcase my abilities.</p>
+
+                    <div class="space-y-6">
+                        <div class="p-4 border border-gray-200 rounded-md shadow-sm">
+                            <h4 class="text-lg font-semibold text-slate-700">Grocery E-commerce Platform</h4>
+                            <p class="text-sm text-gray-500 mb-2">A full-featured e-commerce website similar to Chaldal.</p>
+                            <ul class="list-disc list-inside text-sm text-gray-700 space-y-1 mb-2">
+                                <li>Developed front-end with React and Tailwind CSS.</li>
+                                <li>Built back-end API with Node.js, Express.js, and MongoDB.</li>
+                                <li>Implemented user authentication, product listings, cart functionality, and order processing.</li>
+                            </ul>
+                            <p class="text-sm"><strong>Live Site:</strong> <a href="https://grocery-ecommerce-e8f7e.web.app/" target="_blank" class="text-blue-600 hover:underline">grocery-ecommerce-e8f7e.web.app</a></p>
+                            <p class="text-sm"><strong>Frontend Code:</strong> <a href="https://github.com/Fahim-rafi24/Grocery_Ecommerce-frontend" target="_blank" class="text-blue-600 hover:underline">GitHub</a></p>
+                            <p class="text-sm"><strong>Backend Code:</strong> <a href="https://github.com/Fahim-rafi24/Grocery_Ecommerce-backend" target="_blank" class="text-blue-600 hover:underline">GitHub</a></p>
+                        </div>
+
+                        <div class="p-4 border border-gray-200 rounded-md shadow-sm">
+                            <h4 class="text-lg font-semibold text-slate-700">ARHBD - Hospital Information Site & Admin Panel</h4>
+                            <p class="text-sm text-gray-500 mb-2">A comprehensive hospital information portal with a separate admin panel for management.</p>
+                             <ul class="list-disc list-inside text-sm text-gray-700 space-y-1 mb-2">
+                                <li>Public-facing website for hospital information.</li>
+                                <li>Secure admin panel (React-based) for content and data management.</li>
+                                <li>Login for admin panel: (ID: rafi, Pass: rafi23) - *Note: Consider security implications of sharing live credentials.*</li>
+                            </ul>
+                            <p class="text-sm"><strong>Main Site:</strong> <a href="https://w3.arhbd23.com/" target="_blank" class="text-blue-600 hover:underline">w3.arhbd23.com</a></p>
+                            <p class="text-sm"><strong>Admin Panel:</strong> <a href="https://react.arhbd23.com/" target="_blank" class="text-blue-600 hover:underline">react.arhbd23.com</a></p>
+                            <p class="text-sm"><strong>Server (Hospital Site):</strong> <a href="https://github.com/Fahim-rafi24/ARHBD" target="_blank" class="text-blue-600 hover:underline">GitHub</a></p>
+                            <p class="text-sm"><strong>Server (Admin Panel):</strong> <a href="https://github.com/Fahim-rafi24/ARHBD_admin" target="_blank" class="text-blue-600 hover:underline">GitHub</a></p>
+                            <p class="text-sm"><strong>Frontend (Main Site):</strong> <a href="https://github.com/Fahim-rafi24/ARHBD_web" target="_blank" class="text-blue-600 hover:underline">GitHub</a></p>
+                        </div>
+
+                        <div class="p-4 border border-gray-200 rounded-md shadow-sm">
+                            <h4 class="text-lg font-semibold text-slate-700">Geometry Genius Calculator</h4>
+                            <p class="text-sm text-gray-500 mb-2">A fun and interactive web application for calculating geometric shapes.</p>
+                            <ul class="list-disc list-inside text-sm text-gray-700 space-y-1 mb-2">
+                                <li>User-friendly interface for various geometric calculations.</li>
+                                <li>Built with HTML, CSS (Tailwind), and JavaScript.</li>
+                            </ul>
+                            <p class="text-sm"><strong>Live Site:</strong> <a href="https://fahim-rafi24.github.io/geometry-genius-calculatoror/" target="_blank" class="text-blue-600 hover:underline">GitHub Pages</a></p>
+                            <p class="text-sm"><strong>Source Code:</strong> <a href="https://github.com/Fahim-rafi24/geometry-genius-calculatoror" target="_blank" class="text-blue-600 hover:underline">GitHub</a></p>
+                        </div>
+
+                        <div class="p-4 border border-gray-200 rounded-md shadow-sm">
+                            <h4 class="text-lg font-semibold text-slate-700">Typing Game</h4>
+                            <p class="text-sm text-gray-500 mb-2">An engaging browser-based typing speed and accuracy game.</p>
+                             <ul class="list-disc list-inside text-sm text-gray-700 space-y-1 mb-2">
+                                <li>Interactive game to test and improve typing skills.</li>
+                                <li>Developed using HTML, CSS, and JavaScript.</li>
+                            </ul>
+                            <p class="text-sm"><strong>Live Site:</strong> <a href="https://fahim-rafi24.github.io/typing-game/" target="_blank" class="text-blue-600 hover:underline">GitHub Pages</a></p>
+                            <p class="text-sm"><strong>Source Code:</strong> <a href="https://github.com/Fahim-rafi24/typing-game" target="_blank" class="text-blue-600 hover:underline">GitHub</a></p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer class="text-center p-4 text-xs text-gray-500 border-t border-gray-200 no-print">
+            Generated on <span id="currentDate"></span>.
+        </footer>
+    </div>
+
+    <script>
+        // Script to display current date in footer (optional)
+        document.getElementById('currentDate').textContent = new Date().toLocaleDateString();
+    </script>
+
+</body>
+</html>
